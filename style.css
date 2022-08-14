@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #f4629a, #76cded, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100%;
+
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+form {
+  text-align: center;
+  padding:20px
+
+  color: rgb(9, 8, 8);
+}
+
+input{border-radius: 5px;
+margin-bottom: 10px;
+border: 0px;
+box-shadow: 2px 1px 0 rgb(127, 126, 128);
+
+}
+
+
+table {
+ 
+}
+
+p {font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(12, 11, 11);
+  text-shadow: 1px 1px 0 rgb(179, 47, 191);
+
+ 
+}
+
+div {
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  margin: 100px auto;
+  padding-top: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0 rgb(127, 126, 128);
+
+}
+
+a:link{text-decoration: none;
+color: black;}
+
+a:hover{color: rgb(179, 47, 191);}
+
+button{
+  background-color: rgb(154, 236, 236);
+border-radius: 5px;
+font-weight: bold;
+margin-top: 50px;
+box-shadow: 2px 2px 0 rgb(127, 126, 128);
+border: 0px;
+width: 100px;
+height: 40px;
+}
+
+label{font-weight: bold;}
+
+label:hover{color: #dc6ff7;}
+
+button:hover{background-color: #dc6ff7
+  
+}
+
+span{color: red;
+  padding: 0px;
+}
