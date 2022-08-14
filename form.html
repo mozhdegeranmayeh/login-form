@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <p>login form</p>
+
+      <form>
+        <table>
+          <tr>
+            <td width="100"><label for="fname"> name</label></td>
+            <td>
+              <input type="text" id="fname" name="fname" value="" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="lname">email</label></td>
+            <td><input type="text" id="email" name="email" value="" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span id="emailerror"></span></td>
+          </tr>
+          <tr>
+            <td><label for="lname">username</label></td>
+            <td><input type="text" id="user" name="user" value="" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span id="usererror"></span></td>
+          </tr>
+          <tr>
+            <td><label for="lname">password</label></td>
+            <td><input type="password" id="pass" name="pass" value="" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span id="passerror"></span></td>
+          </tr>
+        </table>
+
+        <h4 class="message"><a href="#">Forgot your password?</a></h4>
+        <button onclick="">SIGN IN</button>
+      </form>
+    </div>
+  </body>
+  <script src="form js.js"></script>
+</html>
